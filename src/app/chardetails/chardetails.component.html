@@ -1,0 +1,12 @@
+<div class= "det">
+    <img [src]="details.image" [alt]="details.name">
+
+    <h3><b>NAME: </b>{{details.name}}</h3>
+    <p><b>Location: </b>{{details.location.name}}</p>
+    <p><b>Species: </b>{{details.species}}</p>
+    <p><b>Gender: </b>{{details.gender}}</p>
+    <p><b>Origin: </b>{{details.origin.name}}</p>
+    <p><b>Date of creation: </b>{{details.created}}</p>
+
+    <button *ngIf="loggedIn" type="button">Fav</button>
+</div>

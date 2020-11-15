@@ -120,5 +120,8 @@
       }
     }
   },
-  "defaultProject": "proyectico"
+  "defaultProject": "proyectico",
+  "cli": {
+    "analytics": false
+  }
 }

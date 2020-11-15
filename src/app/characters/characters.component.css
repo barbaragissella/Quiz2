@@ -1,0 +1,12 @@
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.exp {
+    text-align: center;
+}
+
+#proyecto {
+    width: 50%;
+}
